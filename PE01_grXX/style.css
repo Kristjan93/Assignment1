@@ -1,18 +1,40 @@
-html {
-	margin: 0;
-	padding: 0;
+body, html {
+	margin:0;
+	padding:0;
+	color:#000;
 }
+
 body {
-	margin: 0;
-	padding: 0;
 	font-size: 10px;
 }
 
-/*.head {
-	display: block;
-	border: #603 dotted;
+.wrapper {
+	width: 75em;
+	background-color: grey;
+	margin: 0 auto;
 }
 
+.header {
+	background:#ddd;
+}
+
+.content {
+	background:#9c9;
+	float: right;
+	width: 50em;
+}
+
+.menu {
+	float: left;
+	width: 25em;
+	background:#c9c;
+}
+
+.footer {
+	clear: both;
+	background:#cc9;
+}
+/*
 .pageTitle {
 	margin-left: 13em;
 }
