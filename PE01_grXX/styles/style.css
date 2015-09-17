@@ -15,6 +15,7 @@ body {
 }
 
 .header {
+	height: 5em;
 	background:#ddd;
 }
 
@@ -36,12 +37,25 @@ body {
 }
 
 .logo {
-	height: 3em;
-	width: 3em;
+	height: 5em;
+	width: 5em;
+}
+.pageTitle {
+	height: 5em;
+	width: 100em;
 }
 
-.pageTitle {
+.pageTitlePic{
+	height: 5em;
+	width: 20em;
+	float: left;
 }
+.pageTitleText{
+	height: 5em;
+	float: left;
+	font-size: 1em;
+}
+
 .mainPic {
 	background: url(../images/TheEnd.jpg);
 	background-repeat:no-repeat;
