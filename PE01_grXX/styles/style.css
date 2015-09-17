@@ -50,6 +50,7 @@ body {
 	width: 20em;
 	float: left;
 }
+
 .pageTitleText{
 	height: 5em;
 	float: left;
@@ -64,6 +65,29 @@ body {
 	width: 80em;
 }
 
+.threeNewsColPic {
+	background-repeat:no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	height:15em;
+	width: 15em;
+} 
+
+.alien {
+	background: url(../images/alien.jpg);
+	background-size: cover;
+}
+
+.illuminati {
+	background: url(../images/ill.jpg);
+	background-size: cover;
+}
+
+.earth {
+	background: url(../images/earth.jpg);
+	background-size: cover;
+}
+
 .userSubmitted {
 	margin: 1em;
 }
@@ -75,10 +99,11 @@ body {
 .threeNewsColumn {
 	background: yellow;
 	width: 80em;
-	height: 20em;
+	height: 40em;
 }
 
 .newsColumn {
+	text-align: center;
 	float: left;
 	width: 26em;
 }
