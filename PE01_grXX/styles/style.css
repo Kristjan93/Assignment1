@@ -48,6 +48,25 @@ body {
 	width: 80em;
 }
 
+.userSubmitted {
+	margin: 1em;
+}
+
+#Cannedfood {
+	float: right;
+}
+
+.threeNewsColumn {
+	background: yellow;
+	width: 80em;
+	height: 20em;
+}
+
+.newsColumn {
+	float: left;
+	width: 26em;
+}
+
 
 
 
