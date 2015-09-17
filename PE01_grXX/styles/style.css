@@ -21,12 +21,12 @@ body {
 .content {
 	background:#9c9;
 	float: right;
-	width: 50em;
+	width: 80em;
 }
 
 .menu {
 	float: left;
-	width: 25em;
+	width: 20em;
 	background:#c9c;
 }
 
@@ -42,3 +42,11 @@ body {
 
 .pageTitle {
 }
+.mainPic {
+	background: url(../images/TheEnd.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:20em;
+	width: 80em;
+}
+
