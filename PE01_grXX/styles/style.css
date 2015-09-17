@@ -36,10 +36,12 @@ body {
 }
 
 .logo {
-	height: 1em;
-	width: 1em;
+	height: 3em;
+	width: 3em;
 }
 
+.pageTitle {
+}
 .mainPic {
 	background: url(../images/TheEnd.jpg);
 	background-repeat:no-repeat;
@@ -66,13 +68,3 @@ body {
 	float: left;
 	width: 26em;
 }
-
-
-
-
-
-
-
-
-
-
