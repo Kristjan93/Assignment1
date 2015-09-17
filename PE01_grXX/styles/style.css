@@ -1,0 +1,41 @@
+body, html {
+	margin:0;
+	padding:0;
+	color:#000;
+}
+
+body {
+	font-size: 10px;
+}
+
+.wrapper {
+	width: 75em;
+	background-color: grey;
+	margin: 0 auto;
+}
+
+.header {
+	background:#ddd;
+}
+
+.content {
+	background:#9c9;
+	float: right;
+	width: 50em;
+}
+
+.menu {
+	float: left;
+	width: 25em;
+	background:#c9c;
+}
+
+.footer {
+	clear: both;
+	background:#cc9;
+}
+
+.logo {
+	height: 1em;
+	width: 1em;
+}
