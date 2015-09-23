@@ -6,55 +6,56 @@ body, html {
 
 body {
 	font-size: 10px;
+	font-family: "Courier New", Courier, monospace;
 }
 
 .wrapper {
 	width: 100em;
-	background-color: grey;
 	margin: 0 auto;
 }
 
-.header {
-	height: 5em;
-	background:#ddd;
+header {
+	background-color: rgb(223, 81, 66);
+	height: 10em;
+	width: 100em;
+}
+
+.titlePic {
+	height: 10em;
+	width: 10em;
+	float: left;
+}
+
+.logo {
+	height: 10em;
+	width: 10em;
+}
+
+.titleText{
+	height: 10em;
+	width: 90em;
+	float: left;
+	font-size: 1em;
+}
+
+.titleText h1 {
+	margin-top: 2em;
+	margin-left: 1em;
+}
+
+nav {
+	float: left;
+	width: 20em;
 }
 
 .content {
-	background:#9c9;
 	float: right;
 	width: 80em;
-}
-
-.menu {
-	float: left;
-	width: 20em;
-	background:#c9c;
 }
 
 .footer {
 	clear: both;
 	background:#cc9;
-}
-
-.logo {
-	height: 5em;
-	width: 5em;
-}
-.pageTitle {
-	height: 5em;
-	width: 100em;
-}
-
-.pageTitlePic{
-	height: 5em;
-	width: 20em;
-	float: left;
-}
-
-.pageTitleText{
-	height: 5em;
-	float: left;
-	font-size: 1em;
 }
 
 .mainPic {
@@ -65,10 +66,28 @@ body {
 	width: 80em;
 }
 
+#cannedFoodInp {
+}
+
+.styled-button {
+	background-color: rgb(91, 177, 47);
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size: 1em;
+	line-height: 3em;
+	border-radius: 2em;
+	border-radius: 2em;
+	border: 0;
+	text-shadow: #C17C3A 0 -0.1em 0;
+	width: 12em;
+	height: 3.2em;
+}
+
 .threeNewsColPic {
 	background-repeat:no-repeat;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 2em;
 	height:15em;
 	width: 15em;
 } 
@@ -84,7 +103,7 @@ body {
 }
 
 .earth {
-	background: url(../images/earth.jpg);
+	background: url(../images/fireHand.jpeg);
 	background-size: cover;
 }
 
@@ -92,12 +111,14 @@ body {
 	margin: 1em;
 }
 
-#Cannedfood {
-	float: right;
+.userSubmitted label {
+	margin-right: 11.9em;
+	font-size: 1.6em;
 }
 
 .threeNewsColumn {
-	background: yellow;
+	background-color: transparent rgb(33, 70, 122);
+	/*opacity: 0.5;*/
 	width: 80em;
 	height: 40em;
 }
@@ -108,29 +129,28 @@ body {
 	width: 26em;
 }
 
-.menu ul {
+nav ul {
 	list-style: none;
 	margin: 0em;
 	padding: 0em;
 	width: 20em;
 }
 
-.menu ul li {
-	font-family: Georgia,serif,Times;
+nav ul li {
 	font-size: 1.5em;
-	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
-.menu ul li a {
+nav ul li a {
 	display: block;
 	width: 13.3em;
 	height: 2.8em;
-	background-color: #333;
+	background-color: rgb(0, 139, 186);
 	text-decoration:none; 
 	color: #bfe1f1;
 }
 
-.menu ul li a:hover {
+nav ul li a:hover {
 	-moz-transform:rotate(-5deg);
 	-moz-box-shadow: 1em 1em 2em #000000;
 	-webkit-transform:rotate(-5deg);
