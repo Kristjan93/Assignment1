@@ -1,0 +1,44 @@
+{
+  "name": "semantic-ui-icon",
+  "version": "2.1.4",
+  "title": "Semantic UI - Icon",
+  "description": "Single component release of icon",
+  "homepage": "http://www.semantic-ui.com",
+  "author": {
+    "name": "Jack Lukic",
+    "email": "jack@semantic-ui.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semantic-Org/UI-Icon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "devDependencies": {},
+  "gitHead": "1fc4c24c3a768ca94b436bcfac465a95af3dff14",
+  "_id": "semantic-ui-icon@2.1.4",
+  "scripts": {},
+  "_shasum": "b20c6eb444a56f4581d54058dc25312557c5273e",
+  "_from": "semantic-ui-icon@*",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "semantic-bot",
+    "email": "bot@semantic-ui.com"
+  },
+  "dist": {
+    "shasum": "b20c6eb444a56f4581d54058dc25312557c5273e",
+    "tarball": "http://registry.npmjs.org/semantic-ui-icon/-/semantic-ui-icon-2.1.4.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "semantic-bot",
+      "email": "bot@semantic-ui.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/semantic-ui-icon/-/semantic-ui-icon-2.1.4.tgz",
+  "readme": "ERROR: No README data found!"
+}

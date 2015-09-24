@@ -55,18 +55,26 @@ nav {
 
 .footer {
 	clear: both;
-	background:#cc9;
+	width: 100em;
+	height: 3em;
+}
+
+.footer p {
+	padding-top: 0.5em;
+	border-top: 0.2em solid rgb(223, 81, 66);
+}
+
+.footer i {
+	font-size: 1.5em;
+	float: right;
 }
 
 .mainPic {
 	background: url(../images/TheEnd.jpg);
 	background-repeat:no-repeat;
 	background-size: cover;
-	height:20em;
+	height:15.6em;
 	width: 80em;
-}
-
-#cannedFoodInp {
 }
 
 .styled-button {
@@ -111,16 +119,26 @@ nav {
 	margin: 1em;
 }
 
+#cannedFoodInp {
+  margin: 0;
+  width: 20em;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none
+}
+
 .userSubmitted label {
-	margin-right: 11.9em;
+	margin-right: 6.3em;
 	font-size: 1.6em;
 }
 
 .threeNewsColumn {
-	background-color: transparent rgb(33, 70, 122);
-	/*opacity: 0.5;*/
 	width: 80em;
 	height: 40em;
+}
+
+.threeNewsColumn p {
+	font-size: 1.4em;
 }
 
 .newsColumn {
