@@ -1,9 +1,17 @@
+/* It is possible to use Id, child and more selectors 
+ * and it is important to know them and i do know them
+ * i do not use much here for they are redundant and useless (Hilmar ekki ?)
+ */
+
 body, html {
 	margin:0;
 	padding:0;
 	color:#000;
 }
 
+/* Declare font-size so 1em is 10px,
+ * possible to use JavaScript to re-render page and make it responsive using this method
+ */
 body {
 	font-size: 10px;
 	font-family: "Courier New", Courier, monospace;
@@ -31,7 +39,7 @@ header {
 	width: 10em;
 }
 
-.titleText{
+.titleText {
 	height: 10em;
 	width: 90em;
 	float: left;
@@ -43,32 +51,15 @@ header {
 	margin-left: 1em;
 }
 
-nav {
-	float: left;
-	width: 20em;
-}
-
 .content {
 	float: right;
 	width: 80em;
 }
 
-.footer {
-	clear: both;
-	width: 100em;
-	height: 3em;
-}
-
-.footer p {
-	padding-top: 0.5em;
-	border-top: 0.2em solid rgb(223, 81, 66);
-}
-
-.footer i {
-	font-size: 1.5em;
-	float: right;
-}
-
+/* Include picture and manipulate it using css
+ * More possibility's using this method
+ * cover fills out the element with the background
+ */
 .mainPic {
 	background: url(../images/TheEnd.jpg);
 	background-repeat:no-repeat;
@@ -77,6 +68,21 @@ nav {
 	width: 80em;
 }
 
+.userSubmitted {
+	margin: 1em;
+}
+
+#cannedFoodInp {
+  margin: 0;
+  width: 20em;
+}
+
+.userSubmitted label {
+	margin-right: 6.3em;
+	font-size: 1.6em;
+}
+
+/* border-radius makes the corner if the element round */
 .styled-button {
 	background-color: rgb(91, 177, 47);
 	color:#fff;
@@ -91,6 +97,7 @@ nav {
 	height: 3.2em;
 }
 
+/* The 3 column setup */
 .threeNewsColPic {
 	background-repeat:no-repeat;
 	margin-left: auto;
@@ -98,7 +105,22 @@ nav {
 	border-radius: 2em;
 	height:15em;
 	width: 15em;
-} 
+}
+
+.threeNewsColumn {
+	width: 80em;
+	height: 40em;
+}
+
+.threeNewsColumn p {
+	font-size: 1.4em;
+}
+
+.newsColumn {
+	text-align: center;
+	float: left;
+	width: 26em;
+}
 
 .alien {
 	background: url(../images/alien.jpg);
@@ -115,36 +137,9 @@ nav {
 	background-size: cover;
 }
 
-.userSubmitted {
-	margin: 1em;
-}
-
-#cannedFoodInp {
-  margin: 0;
-  width: 20em;
-  appearance: none;
-  box-shadow: none;
-  border-radius: none
-}
-
-.userSubmitted label {
-	margin-right: 6.3em;
-	font-size: 1.6em;
-}
-
-.threeNewsColumn {
-	width: 80em;
-	height: 40em;
-}
-
-.threeNewsColumn p {
-	font-size: 1.4em;
-}
-
-.newsColumn {
-	text-align: center;
+nav {
 	float: left;
-	width: 26em;
+	width: 20em;
 }
 
 nav ul {
@@ -168,6 +163,7 @@ nav ul li a {
 	color: #bfe1f1;
 }
 
+/* Transformation is being used here as the item rotates -5 deg and a shadow is added */
 nav ul li a:hover {
 	-moz-transform:rotate(-5deg);
 	-moz-box-shadow: 1em 1em 2em #000000;
@@ -176,6 +172,18 @@ nav ul li a:hover {
 	transform:rotate(-5deg); box-shadow: 1em 1em 2em #000000;
 }
 
+.footer {
+	clear: both;
+	width: 100em;
+	height: 3em;
+}
 
+.footer p {
+	padding-top: 0.5em;
+	border-top: 0.2em solid rgb(223, 81, 66);
+}
 
-
+.footer i {
+	font-size: 1.5em;
+	float: right;
+}
