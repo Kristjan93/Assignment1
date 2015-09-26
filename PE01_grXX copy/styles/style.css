@@ -1,0 +1,217 @@
+/* It is possible to use Id, child and more selectors 
+ * and it is important to know them and i do know them
+ * i do not use much here for they are redundant and useless (Hilmar ekki ?)
+ */
+
+body, html {
+	margin:0;
+	padding:0;
+}
+
+/* Declare font-size so 1em is 10px,
+ * possible to use JavaScript to re-render page and make it responsive using this method
+ */
+body {
+	font-size: 10px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.navHead {
+	background-color: rgb(223, 81, 66);
+	height: 10em;
+	width: 100%;
+}
+
+.titlePic {
+	height: 10em;
+	width: 50%;
+	float: left;
+}
+
+.logo {
+	height: 10em;
+	width: 10em;
+	margin-left: 50%
+}
+
+nav {
+	width: 50%;
+	height: 10em;
+	float: left;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0em;
+	margin-top: 8em;
+	padding: 0em;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 1.5em;
+	margin-right: 1.5em;
+}
+
+nav ul li a {
+	width: 13.3em;
+	height: 2.8em;
+	text-decoration:none; 
+	color: #bfe1f1;
+}
+
+ /*Transformation is being used here as the item rotates -5 deg and a shadow is added */
+nav ul li a:hover {
+	-moz-transform:rotate(-5deg);
+	-moz-box-shadow: 1em 1em 2em #000000;
+	-webkit-transform:rotate(-5deg);
+	-webkit-box-shadow: 1em 1em 2em #000000;
+	box-shadow: 1em 1em 2em #000000;
+	background-color: rgb(0, 139, 186);
+}
+
+.jumbo {
+	background-color: rgb(229, 229, 229);
+	width: 100%;
+	height: 27em;
+}
+
+.jumbo article {
+	width: 100%;
+	height: 14em;
+}
+
+.contHead {
+	width: 20%;
+	margin: 0 auto 0 auto;
+	padding-top: 1em;
+	border-style: solid;
+	border-width: 0 0 0.5em 0;
+}
+
+.contHead h1,h2 {
+	text-align: center;
+}
+
+.contHead h1 {
+	font-size: 3em;
+}
+
+.twoColumnCont {
+	width: 60%;
+	height: 10em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.twoColumn {
+	width: 45%;
+	float: left;
+	height: 10em;
+}
+
+/* I just want to influence the first column */
+.twoColumnCont > .twoColumn {
+	margin-right: 5%;
+}
+
+.button {
+	height: 3em;
+	width: 100%;
+}
+
+/* border-radius makes the corner of the element round */
+.styled-button {
+	background-color: rgb(243, 243, 243);
+	color: black;
+	border-radius: 5%;
+	border: 0;
+	width: 10%;
+	height: 2em;
+	margin-left: 45%;
+	border-style: solid;
+	border-width: 0.1em;
+	margin-top: 1em;
+}
+
+.pictures {
+	
+}
+
+.titleText {
+	height: 10em;
+	width: 90em;
+	float: left;
+	font-size: 1em;
+}
+
+.titleText h1 {
+	margin-top: 2em;
+	margin-left: 1em;
+}
+
+.content {
+	width: 100%;
+}
+
+/* Include picture and manipulate it using css
+ * More possibility's using this method
+ * cover fills out the element with the background
+ */
+.mainPic {
+	background: url(../images/TheEnd.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:15.6em;
+	width: 80em;
+}
+
+.userSubmitted {
+	margin: 1em;
+}
+
+#cannedFoodInp {
+  margin: 0;
+  width: 20em;
+}
+
+.userSubmitted label {
+	margin-right: 6.3em;
+	font-size: 1.6em;
+}
+
+.alien {
+	background: url(../images/alien.jpg);
+	background-size: cover;
+}
+
+.illuminati {
+	background: url(../images/ill.jpg);
+	background-size: cover;
+}
+
+.earth {
+	background: url(../images/fireHand.jpeg);
+	background-size: cover;
+}
+
+.footer {
+	clear: both;
+	width: 100em;
+	height: 3em;
+}
+
+.footer p {
+	padding-top: 0.5em;
+	border-top: 0.2em solid rgb(223, 81, 66);
+}
+
+.footer i {
+	font-size: 1.5em;
+	float: right;
+}
